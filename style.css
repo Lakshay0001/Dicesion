@@ -39,11 +39,13 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .winner {
         text-align: center;
     }
     .image {
+        display: flex;
         width: 150px;
+        gap: 20px;
     }
 }
