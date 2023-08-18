@@ -1,9 +1,9 @@
 // Input
-var name1 = prompt("Name Player 1");
-document.querySelector(".player1").textContent = name1;
+// var name1 = prompt("Name Player 1");
+// document.querySelector(".player1").textContent = name1;
 
-var name2 = prompt("Name Player 2");
-document.querySelector(".player2").textContent = name2;
+// var name2 = prompt("Name Player 2");
+// document.querySelector(".player2").textContent = name2;
 
 
 // Dice 1
@@ -28,9 +28,9 @@ document.querySelector(".two").setAttribute("src", dice2ImageSource);
 
 // Heading
 if (randomNum1 > randomNum2) {
-    document.querySelector(".winner").textContent = name1 + " wins 🥂";
+    document.querySelector(".winner").textContent = "Player 1 wins 🥂";
 } else if (randomNum2 > randomNum1) {
-    document.querySelector(".winner").textContent = name2 + " wins 🥂";
+    document.querySelector(".winner").textContent = "Player 2 wins 🥂";
 } else {
     document.querySelector(".winner").textContent = "Draw";
 }
