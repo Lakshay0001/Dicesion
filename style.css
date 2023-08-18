@@ -37,3 +37,12 @@ footer {
     margin-top: 10px;
     color: #e88dff;
 }
+
+@media (max-width: 600px) {
+    .winner {
+        text-align: center;
+    }
+    .image {
+        width: 150px;
+    }
+}
