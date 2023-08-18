@@ -28,9 +28,9 @@ document.querySelector(".two").setAttribute("src", dice2ImageSource);
 
 // Heading
 if (randomNum1 > randomNum2) {
-    document.querySelector(".winner").innerHTML = "Player 1 wins 🥂";
+    document.querySelector(".winner").textContent = name1 + " wins 🥂";
 } else if (randomNum2 > randomNum1) {
-    document.querySelector(".winner").innerHTML = "Player 2 wins 🥂";
+    document.querySelector(".winner").textContent = name2 + " wins 🥂";
 } else {
-    document.querySelector(".winner").innerHTML = "Draw";
+    document.querySelector(".winner").textContent = "Draw";
 }
